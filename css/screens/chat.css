@@ -54,9 +54,10 @@
 }
 .message__author {
   opacity: 0.8;
-  font-size: 15px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 50px;
   display: block;
+  box-sizing: border-box;
 }
 .message__info {
   display: flex;
@@ -68,11 +69,13 @@
   border-radius: 15px;
   font: size 18px;
   border-top-left-radius: 0px;
-  margin-right: 5px;
+  margin-left: -30px;
+  box-sizing: border-box;
 }
 .message__time {
   font-size: 13px;
   opacity: 0.8;
+  margin-left: 5px;
 }
 .message-row__own {
   justify-content: flex-end;
