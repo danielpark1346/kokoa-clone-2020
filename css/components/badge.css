@@ -1,4 +1,4 @@
-.badge {
+.badge1 {
   background-color: #ff6229;
   width: 25px;
   height: 25px;
@@ -8,4 +8,12 @@
   align-items: center;
   color: white;
   font-weight: 600;
+}
+.badge2 {
+  background-color: #ff6229;
+  width: 5px;
+  height: 5px;
+  color: #ff6229;
+  border-radius: 50%;
+  display: flex;
 }

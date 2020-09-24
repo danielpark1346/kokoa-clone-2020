@@ -1,0 +1,30 @@
+.icon-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 10px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+  box-sizing: border-box;
+}
+
+.icon-row__icon i {
+  font-size: 25px;
+}
+.icon-row__icon span {
+  margin-top: 18px;
+}
+.icon-row__icon-address {
+  width: 50%;
+  text-align: center;
+}
+.fa-brush {
+  rotate: 180;
+}
+.icon-row__find {
+  margin-top: -30px;
+}
